@@ -1,1 +1,2 @@
 execute as @a[nbt={SelectedItem:{tag:{Flintlock:{Pistol:1b}}}}] at @s run function flintlock:pistol/mainhand/main
+execute as @a[nbt={Inventory:[{Slot:-106b,tag:{Flintlock:{Pistol:1b}}}]}] at @s run function flintlock:pistol/offhand/main
