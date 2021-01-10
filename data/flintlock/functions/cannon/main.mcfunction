@@ -8,6 +8,13 @@ execute if block ~ ~ ~ fire if entity @s[tag=gp_cannon_loaded] run function flin
 execute if block ~ ~ ~ fire run setblock ~ ~ ~ air
 particle minecraft:dust 1 0.1 0.1 0.25 ~ ~0.15 ~ 0 0 0 0 1 force
 
+
+execute at @s if block ~ ~-0.1 ~ #alloycore:voids if block ^ ^ ^0.5 #alloycore:voids run tp @s ^ ^ ^0.1
+execute at @s if block ~ ~-0.1 ~ #alloycore:voids if block ^ ^ ^0.5 #alloycore:voids run tp @s ^ ^ ^0.1
+execute at @s if block ~ ~-0.1 ~ #alloycore:voids if block ^ ^ ^0.5 #alloycore:voids run tp @s ^ ^ ^0.1
+execute at @s if block ~ ~-0.1 ~ #alloycore:voids if block ^ ^ ^0.5 #alloycore:voids run tp @s ^ ^ ^0.1
+execute at @s if block ~ ~-0.1 ~ #alloycore:voids if block ^ ^ ^0.5 #alloycore:voids run tp @s ^ ^ ^0.1
+
 execute at @s if block ~ ~-0.1 ~ #alloycore:voids run tp @s ~ ~-0.1 ~
 execute at @s if block ~ ~-0.1 ~ #alloycore:voids run tp @s ~ ~-0.1 ~
 execute at @s if block ~ ~-0.1 ~ #alloycore:voids run tp @s ~ ~-0.1 ~
